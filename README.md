@@ -1,6 +1,6 @@
-### Express Server + Mongo
+# Express Server + MongoDB Setup
 
-## Installing Packages
+## Installing Packages 💾📦
 
 To install packages, use the following command in the app directory:
 
@@ -12,9 +12,9 @@ You can check the `package.json` to ensure the package is there.
 
 If a `node_modules` folder is not present, there are no packages installed within that working directory.
 
-## Packages
+## Packages 📦
 
-### **Express**:
+### **Express**: 🌐
 
 #### Allows you to spin up an HTTP server.
 
@@ -23,7 +23,7 @@ const express = require("express");
 const app = express();
 ```
 
-### **Bcrypt**:
+### **Bcrypt**: 🔒
 
 #### Hashes passwords so they aren't stored in plain text.
 
@@ -32,7 +32,7 @@ const bcrypt = require("bcrypt");
 const hashedPassword = bcrypt.hashSync("myPassword", 10);
 ```
 
-### **CORS**:
+### **CORS**: 📜
 
 #### Allows requests from the front end (browser).
 
@@ -41,7 +41,7 @@ const cors = require("cors");
 app.use(cors());
 ```
 
-### **Dotenv**:
+### **Dotenv**: 🤐
 
 #### Hides sensitive information in environment variables.
 
@@ -60,7 +60,7 @@ DB_PASSWORD=mySecretPassword
 
 In this example, `DB_PASSWORD` is set to `mySecretPassword`. Replace it with your actual database password. Make sure not to include any quotation marks or spaces around the equals sign when defining your environment variables in the `.env` file.
 
-### **jsonwebtoken**:
+### **jsonwebtoken**: 🎫
 
 #### Allows a unique token to be generated for each user.
 
@@ -71,7 +71,7 @@ const token = jwt.sign({ username: "user123" }, "secretkey", {
 });
 ```
 
-### **mongoose**:
+### **mongoose**: 📅
 
 #### Allows connection and interaction with our MongoDB database.
 
@@ -83,7 +83,7 @@ mongoose.connect("mongodb://localhost:27017/myDatabase", {
 });
 ```
 
-## MongoDB + Mongoose Documentation
+## MongoDB + Mongoose Documentation 📚
 
 - [Documents (Mongo/SQL comparison)](https://www.mongodb.com/docs/manual/reference/sql-comparison/)
 - [Documents (Mongoose)](https://mongoosejs.com/docs/documents.html)
@@ -91,7 +91,7 @@ mongoose.connect("mongodb://localhost:27017/myDatabase", {
 - [Models (Mongoose)](https://mongoosejs.com/docs/models.html)
 - [Query Documents/Entries (Mongoose)](https://mongoosejs.com/docs/queries.html)
 
-## Tools
+## Tools ⚙️
 
 - **MongoDB Compass**: A graphical user interface (GUI) tool designed to simplify the development, administration, and analysis of MongoDB databases.
   [MongoDB Compass Documentation](https://docs.mongodb.com/compass/)
@@ -99,7 +99,7 @@ mongoose.connect("mongodb://localhost:27017/myDatabase", {
 - **Postman**: A powerful API development tool used by developers to design, test, and document APIs quickly and efficiently.
   [Postman Documentation](https://learning.postman.com/docs/getting-started/introduction/)
 
-## Terms
+## Terms 📖
 
 ### **Headers**:
 

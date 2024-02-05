@@ -60,7 +60,7 @@ DB_PASSWORD=mySecretPassword
 
 In this example, `DB_PASSWORD` is set to `mySecretPassword`. Replace it with your actual database password. Make sure not to include any quotation marks or spaces around the equals sign when defining your environment variables in the `.env` file.
 
-### **jsonwebtoken**: 🎫
+### **Jsonwebtoken**: 🎫
 
 #### Allows a unique token to be generated for each user.
 
@@ -71,7 +71,7 @@ const token = jwt.sign({ username: "user123" }, "secretkey", {
 });
 ```
 
-### **mongoose**: 📅
+### **Mongoose**: 📅
 
 #### Allows connection and interaction with our MongoDB database.
 
